@@ -54,11 +54,13 @@ Follow these steps to get the project running on your local machine:
 
 ## 📂 Project Structure
 
+```bash
 src/
 ├── App.jsx # Parent component
 ├── Stopwatch.jsx # Core logic and timer display
 ├── App.css # Futuristic styles, neon effects & animations
 └── main.jsx # Vite entry point
+```
 
 ---
 
@@ -94,3 +96,9 @@ You can easily change the "Power Color" of the stopwatch by editing the CSS vari
 - [ ] Sound FX: Audio cues for start, stop, and reset actions.
 
 - [ ] Theme Switcher: Toggle between Cyan (Default), Amber (Retro), and Crimson (Alert) themes.
+
+## Built with ⚡ and React.
+
+## Preview
+
+![alt text](image.png)
