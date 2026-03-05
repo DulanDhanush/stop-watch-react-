@@ -29,6 +29,68 @@ Follow these steps to get the project running on your local machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/futuristic-stopwatch.git](https://github.com/your-username/futuristic-stopwatch.git)
-   cd futuristic-stopwatch
+   git clone [https://github.com/DulanDhanush/stop-watch-react-.git](https://github.com/DulanDhanush/stop-watch-react-.git)
+   cd stop-watch-react-
    ```
+2. Install dependencies:
+
+```bash
+    npm install
+```
+
+3. Start the development server:
+
+```bash
+    npm run dev
+```
+
+4. Build for production:
+
+```bash
+   npm run build
+```
+
+---
+
+## 📂 Project Structure
+
+src/
+├── App.jsx # Parent component
+├── Stopwatch.jsx # Core logic and timer display
+├── App.css # Futuristic styles, neon effects & animations
+└── main.jsx # Vite entry point
+
+---
+
+## 🎮 How to Use
+
+- START: Initiates the timer. If the timer was paused, it resumes exactly where it left off.
+
+- STOP: Freezes the timer.
+
+- RESET: Returns the timer to 00:00:00 and stops all background intervals.
+
+---
+
+## 🎨 Design Customization
+
+You can easily change the "Power Color" of the stopwatch by editing the CSS variables in App.css:
+
+```bash
+/* Change the primary glow color */
+:root {
+  --neon-cyan: #00f2ff;
+  --neon-green: #00ff88;
+  --neon-red: #ff3e3e;
+}
+```
+
+---
+
+## 🛠️ Future Roadmap
+
+- [ ] Lap Functionality: Ability to record and display split times.
+
+- [ ] Sound FX: Audio cues for start, stop, and reset actions.
+
+- [ ] Theme Switcher: Toggle between Cyan (Default), Amber (Retro), and Crimson (Alert) themes.
