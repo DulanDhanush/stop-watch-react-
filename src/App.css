@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Deep space background */
+
   background: radial-gradient(circle at center, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
 }
@@ -26,7 +26,6 @@ body {
   overflow: hidden;
 }
 
-/* Subtle scanning line moving down the screen */
 .scanline {
   position: absolute;
   top: 0;
@@ -82,7 +81,6 @@ body {
   overflow: hidden;
 }
 
-/* Diagonal cut on button corners */
 .btn {
   clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
 }
